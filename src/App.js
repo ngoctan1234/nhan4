@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter, HashRouter } from "react-router-dom";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -42,7 +42,7 @@ const App = () => {
     return (
         <div>
             <AppProvider>
-                <BrowserRouter>
+                <HashRouter>
                     <Routes>
                         <Route index element={<Home />} />
 
@@ -74,7 +74,7 @@ const App = () => {
 
                         <Route path="*" element={<NotFound />} />
                     </Routes>
-                </BrowserRouter>
+                </HashRouter>
             </AppProvider>
         </div>
     );
