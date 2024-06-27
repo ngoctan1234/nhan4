@@ -1,0 +1,130 @@
+.main_products{
+    background: #ececec;
+    padding-bottom: 50px;
+}
+.main_products .sp_tonghop h2{
+    text-align: center;
+    padding-top: 50px;
+    color:#532606;
+}
+.main_products .sp_tonghop .ic{
+    text-align: center;
+    padding-bottom: 50px;
+    color:#532606;
+}
+
+
+
+.main_products .sp_tonghop{
+    background: #ececec;
+    padding-bottom: 50px;
+}
+.main_products .sp_tonghop h2{
+    text-align: center;
+    padding-top: 50px;
+    color:#532606;
+}
+.main_products .sp_tonghop a{
+    text-decoration: none;
+}
+.main_products .sp_tonghop h6{
+    text-align: center;
+    color:red;
+    
+}
+.main_products .sp_tonghop h5{
+    color:#532606;
+    text-align: center;
+    margin: 10px 0;
+}
+.main_products .sp_tonghop .ic{
+    text-align: center;
+    padding-bottom: 50px;
+    color:#532606;
+}
+
+.main_products .container .row{
+    display: flex;
+    justify-content: space-between;
+}
+.main_products .container img{
+    width: 100%;
+}
+
+.sp_tonghop .row .card {
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.sp_tonghop .row .card:hover{
+    background:  rgba(215, 214, 211, 0.43);
+    border: 1px solid #8B4513;
+}
+.sp_tonghop .chitiet{
+    padding: 5px;
+    border-radius: 20px 0  20px 0;
+    background:  #c3b582;
+    color:#000;
+}
+.sp_tonghop .chitiet:hover{
+    background:#8B4513;
+    color: #fff;
+}
+
+.sp_tonghop .icon{
+    text-align: center;
+}
+.sp_tonghop .icon i{
+    border: 1px solid #8B4513;
+    color: #8B4513;
+    padding: 10px 15px;
+    margin: 5px;
+    margin-top: 50px;
+}
+.sp_tonghop .icon .mot{
+    background: #532606;
+    color: #fff;
+}
+.sp_tonghop .icon .hai{
+    background: #532606;
+    color: #fff;
+}
+.sp_tonghop .icon .ba{
+    background: #532606;
+    color: #fff;
+}
+.sp_tonghop .icon .bon{
+    background: #532606;
+    color: #fff;
+}
+.sp_tonghop .icon .nam{
+    background: #532606;
+    color: #fff;
+}
+
+.main_products .cuon{
+    border-radius: 50%;
+    background: #826b5f;
+    position: fixed;
+    z-index: 1000;
+    bottom:40px;
+    height: 50px;
+    right: 25px;
+    width: 50px;
+    border: none;
+    animation: ani-border 1s infinite alternate;
+}
+.main_products .cuon i{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+    .sp_tonghop .row .card {
+        width: 175px;
+        padding: 10px;
+        margin: 10px 10px;
+    }
+}

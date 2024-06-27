@@ -1,0 +1,162 @@
+.cart {
+    padding: 100px 50px;
+}
+
+.cart h2 {
+    text-align: center;
+    color: #532606;
+}
+.cart .ic{
+    color:#532606;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart li {
+    margin-bottom: 10px;
+}
+
+.cart .cart_tt {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px;
+    border: 1px solid #ececec;
+}
+
+.cart .cart_tt .giohang{
+    margin-right: 30px;
+}
+.cart .cart_tt .giohang th{
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    border:none;
+    padding: 15px 0;
+   
+}
+.cart .cart_tt .giohang tr{
+    border-bottom: 1px solid #ececec;
+}
+.cart .cart_tt .giohang td{
+    text-align: center;
+    border:none;
+    padding: 15px 0;
+}
+.cart .cart_tt .sl{
+    display: flex;
+}
+.cart .cart_tt .giohang .sp{
+    padding: 0 5px;
+    margin: 3px 5px;
+    border: none;
+}
+.cart .cart_tt .giohang .xoasp{
+    padding: 0 5px;
+    border-radius: 5px;
+    border: none;
+}
+.cart .cart_tt .giohang .muathem_sp a{
+    text-decoration: none;
+    color: rgb(70, 179, 43);
+    font-weight: 700;
+    border-bottom: 1px solid rgb(70, 179, 43);
+}
+.cart .cart_tt .giohang .tc{
+    text-align: right;
+    color: red;
+}
+
+.cart .cart_tt .giohang .muathem_sp i{
+    margin-right: 10px;
+}
+
+
+.cart .cart_tt .thanhtoan{
+    border-left: 1px solid #ececec;
+    padding-left: 40px;
+}
+.cart .thanhtoan .form_group {
+    margin-bottom: 15px;
+}
+.cart .thanhtoan h4{
+    color: #532606;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.cart .thanhtoan .form_group input {
+    border: 1px solid #9b6530;
+}
+
+.cart .thanhtoan .form_group label {
+    color: #4b3d0a;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.cart .thanhtoan .form_control {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ececec;
+    border-radius: 15px 0 15px 0;
+}
+
+.cart .thanhtoan .form_control:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #6b4123, 0 0 0 5px rgba(210, 182, 132, 0.2);
+}
+
+.cart .thanhtoan .btn {
+    background-color: #9b6530;
+    color: #fff;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 15px 0 15px 0;
+    margin: 20px 0;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+}
+
+.cart .thanhtoan .btn:hover {
+    background-color: #bf977a;
+}
+
+@media screen and (max-width: 600px){
+    .cart {
+        padding: 100px 10px;
+    }
+    .cart .cart_tt {
+        display: block;
+        padding: 20px 5px;
+        border: none;
+    }
+    .cart .cart_tt .thanhtoan{
+        border-left: none;
+        padding-left: 0px;
+        border-top: 1px solid #ececec;
+    }
+    .cart .cart_tt .giohang{
+        padding-bottom: 50px;
+        margin-right: 0px;
+    }
+    .cart .cart_tt .giohang th{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .cart .cart_tt .giohang td{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .cart .cart_tt .giohang .muathem_sp a{
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+}

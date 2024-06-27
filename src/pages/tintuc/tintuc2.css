@@ -1,0 +1,161 @@
+.main_tt2{
+    padding : 120px 150px;
+    
+}
+.main_tt2 h2{
+    color: #532606;
+    text-align: center;
+}
+.tintuc2 .ic{
+    text-align: center;
+    padding-bottom: 50px;
+    color:#532606;
+}
+.main_tt2 .ngaydang{
+    padding-bottom: 30px;
+    color: rgb(168, 168, 168);
+}
+
+.main_tt2 .imgsp{
+    width: 400px;
+}
+.main_tt2 .giua{
+    text-align: center;
+}
+
+.tintuc2 .lienquan{
+    background: #ececec;
+    padding: 50px;
+}
+.tintuc2 .lienquan .row{
+    display: flex;
+    justify-content: space-around;
+}
+.tintuc2 .lienquan h2{
+    color: #532606;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.tintuc2 .lienquan .row .card {
+    width: 250px;
+    padding: 10px;
+    margin: 20px 10px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    border-radius: 0 0 20px 20px;
+}
+.tintuc2 .lienquan .row .card:hover{
+    background:  rgba(215, 214, 211, 0.43);
+    border: 1px solid #8B4513;
+}
+
+.tintuc2 .lienquan .row .card .imgsp{
+    width: 100%;
+}
+.tintuc2 .lienquan .row .card a{
+    text-decoration: none;
+}
+
+.tintuc2 .lienquan .row .card h5 {
+    color: #532606;
+}
+
+.tintuc2 .lienquan .row .card p {
+    color: #7a7a7a;
+    font-size: 12px;
+}
+
+.tintuc2 .lienquan .yeuthich {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tintuc2 .lienquan .yeuthich .com {
+    display: flex;
+}
+
+.tintuc2 .lienquan .yeuthich .com i {
+    margin-right: 5px;
+    color: #6c6c6c;
+}
+
+
+.tintuc2 .nut {
+    background: #9b6530;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tintuc2 .nut h2{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.tintuc2 .nutsp button {
+    margin: 20px 10px;
+    padding: 10px 10px;
+    font-weight: 700;
+    border-radius: 20px 0 20px 0;
+    background: #fff;
+    color: #f20303;
+    border: none;
+}
+
+.tintuc2 .cuon{
+    border-radius: 50%;
+    background: #826b5f;
+    position: fixed;
+    z-index: 1000;
+    bottom:40px;
+    height: 50px;
+    right: 25px;
+    width: 50px;
+    border: none;
+    animation: ani-border 1s infinite alternate;
+}
+.tintuc2 .cuon i{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px){
+    .tintuc2 .lienquan .row .card {
+        width: 300px;
+    }
+    .main_tt2{
+        padding : 120px 50px;
+        
+    }
+}
+@media screen and (max-width: 600px){
+    .main_tt2 .imgsp{
+        width: 300px; 
+    }
+    .tintuc2 .nutsp button {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .tintuc2 .lienquan{
+        background: #ececec;
+        padding: 50px 10px;
+    }
+}
+
+@media screen and (max-width: 431px){
+    .tintuc2 .lienquan .row .card {
+        width: 170px;
+        padding: 10px;
+        margin: 15px 5px;   
+    }
+    .tintuc2 .lienquan .yeuthich {
+        display: block;
+        justify-content: space-around;
+    }
+    .tintuc2 .lienquan .row .card h5 {
+        font-size: 15px;
+    }
+    .main_tt2 .nutsp button {
+        font-weight: 500;
+        font-size: 12px;
+    }
+}

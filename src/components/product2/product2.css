@@ -1,0 +1,87 @@
+.main_product2 .banner .side{
+    width: 100%;
+    height: 500px;
+}
+.main_product2 .sp_maydoi{
+    background: #ececec;
+    padding-bottom: 50px;
+}
+.main_product2 .sp_maydoi h2{
+    text-align: center;
+    padding-top: 50px;
+    color:#532606;
+}
+.main_product2 .sp_maydoi h3{
+    text-align: center;
+    color:#532606;
+}
+.main_product2 .sp_maydoi h5{
+    color:red;
+}
+.main_product2 .sp_maydoi .ic{
+    text-align: center;
+    padding-bottom: 50px;
+    color:#532606;
+}
+
+.main_product2 .sp_maydoi h5{
+    color:#532606;
+    text-align: center;
+    margin: 10px 0;
+}
+.main_product2 .sp_maydoi h6{
+    color:red;
+    text-align: center;
+}
+.main_product2 .sp_maydoi a{
+    text-decoration: none;
+}
+
+.main_product2 .container .row{
+    display: flex;
+    justify-content: space-around;
+}
+.main_product2 .container img{
+    width: 100%;
+}
+.sp_maydoi .row .card {
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.sp_maydoi .row .card:hover{
+    background:  rgba(215, 214, 211, 0.43);
+    border: 1px solid #8B4513;
+}
+
+.main_product2 .cuon{
+    border-radius: 50%;
+    background: #826b5f;
+    position: fixed;
+    z-index: 1000;
+    bottom:40px;
+    height: 50px;
+    right: 25px;
+    width: 50px;
+    border: none;
+    animation: ani-border 1s infinite alternate;
+}
+.main_product2 .cuon i{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .main_product2 .banner .side{
+        height: 350px;
+    }
+    
+    .sp_maydoi .row .card {
+        width: 170px;
+        padding: 10px;
+        margin: 10px 5px;
+        
+    }
+}

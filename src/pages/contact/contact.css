@@ -1,0 +1,166 @@
+.main_contact {
+    padding-bottom: 50px;
+}
+
+.main_contact .banner .side {
+    width: 100%;
+    height: 500px;
+}
+
+.lienhe h2 {
+    color: #532606;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.lienhe .ic {
+    color: #532606;
+    text-align: center;
+}
+
+.lienhe .ic:hover {
+    color: #e31414;
+}
+
+.lienhe .container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lienhe .container h4 {
+    color: #532606;
+    margin: 30px 0;
+}
+
+.lienhe .thongtin {
+    margin: 20px;
+    line-height: 30px;
+    border-right: 1px solid #ececec;
+    padding-right: 20px;
+}
+
+.lienhe .thongtin p {
+    color: #4b3d0a;
+}
+
+.lienhe .form_group {
+    margin-bottom: 15px;
+}
+
+.lienhe .form_group input {
+    box-shadow: 0 7px 29px 0 hsla(240, 5%, 41%, .2);
+}
+
+.lienhe .form_group label {
+    color: #4b3d0a;
+}
+
+.lienhe .form_control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ececec;
+    border-radius: 15px 0 15px 0;
+}
+
+.lienhe .form_control:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #6b4123, 0 0 0 5px rgba(210, 182, 132, 0.2);
+}
+
+.lienhe .form_lh .btn {
+    background-color: #9b6530;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px 0 15px 0;
+    margin: 20px 0;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 700;
+}
+
+.lienhe .form_lh .btn:hover {
+    background-color: #bf977a;
+}
+
+.main_contact .nut {
+    background: #9b6530;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main_contact .nut h2 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.main_contact .nutsp button {
+    margin: 20px 10px;
+    padding: 10px 10px;
+    font-weight: 700;
+    border-radius: 20px 0 20px 0;
+    background: #fff;
+    color: #f20303;
+    border: none;
+}
+
+.main_contact .nutsp button:hover {
+    background: linear-gradient(45deg, #d0a68f 50%, #c2c1ba 100%);
+}
+
+.main_contact .cuon {
+    border-radius: 50%;
+    background: #826b5f;
+    position: fixed;
+    z-index: 1000;
+    bottom: 40px;
+    height: 50px;
+    right: 25px;
+    width: 50px;
+    border: none;
+    animation: ani-border 1s infinite alternate;
+}
+
+.main_contact .cuon i {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .main_contact .banner .side {
+        width: 100%;
+        height: 400px;
+    }
+
+    .lienhe .container {
+        display: block;
+    }
+
+    .thongtin {
+        border-bottom: 1px solid #6b4123;
+        border-right: none;
+        margin: 20px;
+        padding: 30px;
+    }
+
+    .form_lh {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main_contact .nutsp button {
+        font-weight: 500;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .main_contact .banner .side {
+        height: 300px;
+    }
+}

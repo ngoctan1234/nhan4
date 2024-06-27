@@ -1,0 +1,138 @@
+.main_detail{
+    padding: 100px 0;
+}
+.main_detail h1{
+    text-align: center;
+    color:#532606;
+}
+.main_detail .ic{
+    color:#532606;
+    text-align: center;
+   
+}
+.main_detail .ic:hover{
+    color:#e31414;
+}
+.chitiet_sp{
+    display: flex;
+    justify-content: center;
+    padding: 30px 200px;
+}
+.chitiet_sp .hinh_sp{
+    text-align: center;
+}
+.chitiet_sp .hinh_sp img{
+    width: 400px;
+    margin-right: 30px;
+}
+.noidung_sp{
+    border-top: 1px solid #ececec;
+    line-height: 20px;
+}
+.noidung_sp h2{
+    color:#532606;
+    margin-bottom: 15px;
+}
+.noidung_sp h6{
+    color:red;
+    margin-bottom: 15px;
+}
+.noidung_sp p{
+    color: #414040;
+}
+.noidung_sp .them_sp{
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px 0 20px 0;
+    background: #8B4513;
+    color: #ececec;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+}
+.sp_lienquan{
+    background: #9b6530;
+    padding: 50px 0;
+}
+.sp_lienquan h2 {
+    text-align: center;
+    padding-top: 30px;
+    color: #fff;
+}
+.sp_lienquan .row {
+    display: flex;
+    justify-content: center;
+}
+
+.sp_lienquan .row .card {
+    width: 250px;
+    padding: 10px;
+    margin: 20px 10px;
+}
+
+.sp_lienquan .row .card:hover {
+    background: rgba(215, 214, 211, 0.43);
+    border: 1px solid #8B4513;
+}
+.sp_lienquan .row .card a{
+    text-decoration: none;
+}
+.sp_lienquan .row .card h3{
+    color:#532606;
+    text-align: center;
+    margin: 10px 0;
+}
+.sp_lienquan .row .card h5{
+    text-align: center;
+    color:red;
+}
+.sp_lienquan .imgsp{
+    width: 100%;
+}
+
+.main_detail .cuon{
+    border-radius: 50%;
+    background: #826b5f;
+    position: fixed;
+    z-index: 1000;
+    bottom:40px;
+    height: 50px;
+    right: 25px;
+    width: 50px;
+    border: none;
+    animation: ani-border 1s infinite alternate;
+}
+.main_detail .cuon i{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+@media screen and (max-width: 768px){
+    .chitiet_sp{
+        display: block;
+        justify-content: center;
+        padding: 50px;
+    }
+    .noidung_sp{
+        margin-top: 20px;
+        
+    }
+    .chitiet_sp .hinh_sp img{
+        width: 300px;
+        margin-right: 0px;
+    }
+    @media screen and (max-width: 576px){
+        .sp_lienquan .row .card {
+            width: 175px;
+            padding: 10px;
+            margin: 20px 5px;
+            
+        }
+        .sp_lienquan .row .card h3{
+            font-size: 15px;
+        }
+        .sp_lienquan .row .card h5{
+            font-size: 12px;
+        }
+    }
+}

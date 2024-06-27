@@ -1,0 +1,19 @@
+.banner .carousel img{
+    height: 500px;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .banner .carousel img{
+        height: 400px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 431px) {
+    .banner .carousel img{
+        height: 300px;
+        width: 100%;
+    }
+}

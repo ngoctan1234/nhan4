@@ -1,0 +1,416 @@
+.visao {
+    background: #ececec;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.visao h2 {
+    color: #532606;
+    text-align: center;
+}
+
+.visao .ic {
+    color: #532606;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.visao .row {
+    display: flex;
+    justify-content: center;
+}
+
+.visao .row .card_visao {
+    width: 300px;
+    padding: 10px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 50px 0 50px 50px;
+    box-shadow: 0 7px 29px 0 hsla(240, 5%, 41%, .2);
+    line-height: 35px;
+    text-align: center;
+    
+}
+
+.visao .card_visao:hover {
+    background: linear-gradient(45deg, #bf977a 50%, #c2c1ba 100%);
+}
+
+.visao .card_visao .icon {
+    align-items: center;
+    background: #edecec;
+    border-radius: 20px 0 20px 20px;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    margin: 10px auto 20px;
+    width: 80px;
+    font-size: 30px;
+    color: #532606;
+}
+
+.visao .card_visao h4 {
+    color: #532606;
+}
+
+.visao .card_visao p {
+    color: #6d6e6e;
+    font-size: 15px;
+}
+
+
+.sp_noibat{
+    background: #9b6530;
+}
+.sp_noibat h2 {
+    text-align: center;
+    padding-top: 30px;
+    color: #fff;
+}
+.sp_noibat .ic {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.sp_noibat .row {
+    display: flex;
+    justify-content: center;
+}
+.sp_noibat .imgsp{
+    width: 100%;
+}
+.sp_noibat a{
+    text-decoration: none;
+}
+.sp_noibat .row .card {
+    width: 230px;
+    padding: 10px;
+    margin: 20px 20px;
+    border: none;
+    /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
+}
+
+.sp_noibat .row .card:hover {
+    background: #e3e3e2;
+    border: 1px solid #8B4513;
+}
+.sp_noibat .sp_xemthem{
+    display: flex;
+    justify-content: center;
+}
+.sp_noibat .xemthem {
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    background: #fff;
+    color: #eb0a0a;
+    border: none;
+}
+
+.sp_noibat .xemthem:hover {
+    background: linear-gradient(45deg, #d0a68f 50%, #c2c1ba 100%);
+}
+
+.sp_noibat h3 {
+    color: #532606;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sp_noibat h5 {
+    color: red;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.vechungtoi {
+    background: #ececec;
+    padding: 30px 0;
+}
+
+.main_home .vechungtoi .container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main_home .vechungtoi .left_vechungtoi {
+    padding: 30px;
+
+}
+
+.main_home .vechungtoi .left_vechungtoi p {
+    line-height: 40px;
+    color: #6f533f;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main_home .vechungtoi .right_vechungtoi img {
+    width: 600px;
+    height: 300px;
+}
+
+.main_home .vechungtoi h2 {
+    color: #532606;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+.baivietmoi {
+    padding: 50px 10px;
+    background: #fff;
+}
+
+.baivietmoi h2 {
+    color: #532606;
+    text-align: center;
+}
+.baivietmoi .ic {
+    color: #532606;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.baivietmoi .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.baivietmoi .row .card {
+    width: 250px;
+    padding: 10px;
+    margin: 20px 10px;
+    /* box-shadow: rgba(115, 123, 130, 0.48) 6px 2px 16px 0px, rgba(190, 190, 190, 0.8) -6px -2px 16px 0px; */
+    border-radius: 0 0 20px 20px;
+}
+.baivietmoi .row .card .imgsp{
+    width: 100%;
+}
+.baivietmoi .row .card a{
+    text-decoration: none;
+}
+.baivietmoi .row .card:hover {
+    background: #d3d3d3;
+    border: 1px solid #8B4513;
+}
+
+.baivietmoi .row .card h5 {
+    color: #532606;
+}
+
+.baivietmoi .row .card p {
+    color: #7a7a7a;
+    font-size: 12px;
+}
+
+.baivietmoi .yeuthich {
+    display: flex;
+    justify-content: space-around;
+}
+
+.baivietmoi .yeuthich .com {
+    display: flex;
+}
+
+.baivietmoi .yeuthich .com i {
+    margin-right: 5px;
+    color: #6c6c6c;
+}
+
+
+.main_home .nut {
+    background: #9b6530;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main_home .nut h2{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.main_home .nutsp button {
+    margin: 20px 10px;
+    padding: 10px 10px;
+    font-weight: 700;
+    border-radius: 20px 0 20px 0;
+    background: #fff;
+    color: #f20303;
+    border: none;
+}
+.main_home .nutsp button:hover{
+    background: linear-gradient(45deg, #d0a68f 50%, #c2c1ba 100%);
+}
+
+.main_home .cuon{
+    border-radius: 50%;
+    background: #826b5f;
+    position: fixed;
+    z-index: 1000;
+    bottom:40px;
+    height: 50px;
+    right: 25px;
+    width: 50px;
+    border: none;
+    animation: ani-border 1s infinite alternate;
+}
+.main_home .cuon i{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+@keyframes ani-border {
+    0% {
+        border: 3px solid var(--mc1);
+    }
+
+    100% {
+        border: 3px solid var(--mc2);
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    /* .visao .box {
+        padding: 5px;
+        margin: 5px;
+    } */
+
+    .visao .row .card {
+        width: 208px;
+        padding: 20px;
+        margin: 5px;
+    }
+
+    .main_home .vechungtoi .container {
+        display: block;
+    }
+
+    .main_home .vechungtoi .right img {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .visao .row .card_visao {
+        width: 250px;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .sp_noibat .row .card {
+        width: 200px;
+        margin: 20px 5px;
+    }
+
+    .baivietmoi .row .card {
+        width: 220px;
+        padding: 10px;
+        margin: 20px 5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .main_home .vechungtoi .right_vechungtoi img {
+        width: 100%;
+        height: 200px;
+    }
+    .main_home .vechungtoi .left_vechungtoi p {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 30px;
+    }
+    
+    .main_home .vechungtoi h2 {
+        font-weight: 500;
+    }
+
+
+
+    .visao {
+        padding: 30px 5px;
+    }
+    .visao h2 {
+        font-size: 20px;  
+    }
+    .visao .row .card_visao {
+        width: 170px;
+        padding: 5px;
+        margin: 5px;
+    }
+    .visao .card_visao .icon {
+        height: 60px;
+        width: 60px;
+        font-size: 20px;
+    }
+    .visao .card_visao h4 {
+        font-size: 13px;
+    }
+    .visao .card_visao p {
+        font-size: 13px;
+    }
+
+    
+    .baivietmoi .row .card {
+        width: 190px;
+        padding: 10px;
+        margin: 20px 3px;
+    }
+    .baivietmoi .yeuthich {
+        display: block;
+        justify-content: center;
+    }
+
+
+    .main_home .nutsp button {
+        font-weight: 500;
+    }
+}
+
+
+
+@media screen and (max-width: 431px) {
+    .sp_noibat h2 {
+        font-size: 20px;
+    }
+    .sp_noibat .row .card {
+        width: 170px;
+        margin: 20px 5px;
+    }
+
+
+    .sp_noibat h3 {
+        font-size: 15px;
+        margin: 10px 0;
+    }
+    
+    .sp_noibat h5 {
+        font-size: 12px;
+    }
+
+    .baivietmoi .row .card {
+        width: 170px;
+        padding: 10px;
+        margin: 20px 3px;
+    }
+    .main_home .nutsp button {
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .nut h2{
+        font-size: 20px;
+    }
+}

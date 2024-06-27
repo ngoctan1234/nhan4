@@ -1,0 +1,130 @@
+.main_tintuc .banner .side{
+    width: 100%;
+    height: 500px;
+}
+.main_tintuc{
+    background: #ececec;
+    
+}
+.main_tintuc .tintuc h2{
+    text-align: center;
+    padding-top: 50px;
+    color:#532606;
+}
+.main_tintuc .tintuc .ic{
+    text-align: center;
+    padding-bottom: 50px;
+    color:#532606;
+}
+.tintuc .row{
+    display: flex;
+    justify-content: center;
+}
+.tintuc .row .card {
+    width: 250px;
+    padding: 10px;
+    margin: 20px 10px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    border-radius: 0 0 20px 20px;
+}
+.tintuc .row .card:hover{
+    background:  rgba(215, 214, 211, 0.43);
+    border: 1px solid #8B4513;
+}
+
+.tintuc .row .card .imgsp{
+    width: 100%;
+}
+.tintuc .row .card a{
+    text-decoration: none;
+}
+
+.tintuc .row .card h5 {
+    color: #532606;
+}
+
+.tintuc .row .card p {
+    color: #7a7a7a;
+    font-size: 12px;
+}
+
+.tintuc .yeuthich {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tintuc .yeuthich .com {
+    display: flex;
+}
+
+.tintuc .yeuthich .com i {
+    margin-right: 5px;
+    color: #6c6c6c;
+}
+.main_tintuc .nut {
+    background: #9b6530;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main_tintuc .nut h2{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.main_tintuc .nutsp button {
+    margin: 20px 10px;
+    padding: 10px 10px;
+    font-weight: 700;
+    border-radius: 20px 0 20px 0;
+    background: #fff;
+    color: #f20303;
+    border: none;
+}
+.main_tintuc .nutsp button:hover{
+    background: linear-gradient(45deg, #d0a68f 50%, #c2c1ba 100%);
+}
+.main_tintuc .cuon{
+    border-radius: 50%;
+    background: #826b5f;
+    position: fixed;
+    z-index: 1000;
+    bottom:40px;
+    height: 50px;
+    right: 25px;
+    width: 50px;
+    border: none;
+    animation: ani-border 1s infinite alternate;
+}
+.main_tintuc .cuon i{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+@media screen and (max-width: 600px) {
+    .main_tintuc .banner .side {
+        height: 400px;
+    }
+    .main_tintuc .nutsp button {
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 431px){
+    .tintuc .row .card {
+        width: 170px;
+        padding: 10px;
+        margin: 15px 5px;   
+    }
+    .tintuc .yeuthich {
+        display: block;
+        justify-content: space-around;
+    }
+    .tintuc .row .card h5 {
+        font-size: 15px;
+    }
+    .main_tintuc .nutsp button {
+        font-weight: 500;
+        font-size: 12px;
+    }
+}
